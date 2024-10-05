@@ -1,0 +1,111 @@
+body{
+    background-color: #2f2b2b;
+    color: white;
+}
+.App{
+    text-align: center;
+}
+
+.Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    gap: 15px;
+}
+
+.add-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.info-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+input[type = "text"],button{
+    appearance: none;
+    outline: none;
+    border: 0;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+button{
+    font-weight: 600;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.add{
+    background-color: #73addf;
+   
+    font-weight: 600;
+}
+
+.search-table-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.search-input{
+    width: 250px;
+}
+
+table{
+    border-collapse: collapse;
+
+}
+
+table td,
+table th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    max-width: 350px;
+    word-wrap: break-word;
+    text-align: left;
+    color: white;
+}
+
+table td{
+    font-size: 18px;
+    font-weight: 400;
+}
+table tr:hover{
+    background-color: #3f3c3c;
+}
+
+tr,th{
+    min-width: 100px;
+}
+
+table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04aa6d;
+    font-weight: 600;
+}
+
+.edit{
+    background-color: #73addf;
+    text-transform: uppercase;
+}
+.delete{
+    background-color:lightcoral;
+    text-transform: uppercase;
+
+}
+.paginition {
+    display:  flex;
+    gap: 5px;
+    justify-content:  center;
+}
